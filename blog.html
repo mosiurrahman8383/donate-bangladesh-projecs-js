@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Donate Bangladesh</title>
+    <!-- daisy ui and tailwind css link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .Lexend-font {
+            font-family: "Lexend", serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+        }
+    </style>
+
+
+</head>
+
+<body class="Lexend-font">
+    <header class=" bg-[#F9F7F3] fixed top-0 w-full  ">
+        <nav class="flex justify-between px-4 md:mx-5 lg:mx-32 py-6  ">
+            <button id="btn-home" class="btn  bg-[#B4F461] font-semibold  md:text-xl px-5 md:px-7">Home</button>
+            <div class="flex items-center gap-4">
+                <img src="assets/logo.png" alt="">
+                <h2 class="font-semibold text-2xl hidden md:block">Donate Bangladesh</h2>
+            </div>
+
+            <div class="flex items-center gap-3">
+                <img src="assets/coin.png" alt="">
+                <h1 class=" text-xl md:text-2xl font-medium text-[#111111] opacity-70"><span id="my-balance">5500</span>
+                    BDT</h1>
+            </div>
+        </nav>
+    </header>
+    <main class="pt-40 mx-5 mb-8  xl:mx-36 space-y-7 ">
+        <h1 class="text-4xl font-extrabold">Important FAQ</h1>
+        <div class="border-2 border-black border-opacity-30 rounded-lg ">
+            <div class="collapse collapse-arrow border-b-2  border-black border-opacity-30 rounded-none md:p-3 lg:p-6">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow border-b-2  border-black border-opacity-30 rounded-none md:p-3 lg:p-6">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow border-b-2  border-black border-opacity-30 rounded-none md:p-3 lg:p-6">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow  md:p-3 lg:p-6">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+        </div>
+    </main>
+
+    <footer class="bg-[#F9F7F3] h-32 bottom-0 relative">
+
+    </footer>
+
+    <!-- <script src="js/features.js"></script> -->
+    <script>
+        document.getElementById('btn-home').addEventListener('click', function () {
+            window.location.href = '/index.html'
+        })
+    </script>
+</body>
+
+</html>
