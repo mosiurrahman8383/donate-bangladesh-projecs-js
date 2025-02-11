@@ -2,7 +2,7 @@
 showBgColor("btn-donation-features");
 
 document.getElementById('btn-blog').addEventListener('click',function(){
-    window.location.href = '/donate-bangladesh-projecs-js/blog.html'
+    window.location.href = 'blog.html'
 })
 
 
